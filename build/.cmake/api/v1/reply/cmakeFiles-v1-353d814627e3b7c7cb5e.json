@@ -2,11 +2,14 @@
 	"globsDependent" : 
 	[
 		{
-			"expression" : "C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/src/*.cpp",
+			"expression" : "C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/src/*",
 			"paths" : 
 			[
 				"C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/src/main.cpp",
-				"C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/src/player.cpp"
+				"C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/src/plateau.cpp",
+				"C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/src/plateau.hpp",
+				"C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/src/player.cpp",
+				"C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/src/player.hpp"
 			],
 			"recurse" : true
 		}

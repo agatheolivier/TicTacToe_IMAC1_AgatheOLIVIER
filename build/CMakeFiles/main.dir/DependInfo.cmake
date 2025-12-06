@@ -9,6 +9,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/src/main.cpp" "CMakeFiles/main.dir/src/main.cpp.obj" "gcc" "CMakeFiles/main.dir/src/main.cpp.obj.d"
+  "C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/src/plateau.cpp" "CMakeFiles/main.dir/src/plateau.cpp.obj" "gcc" "CMakeFiles/main.dir/src/plateau.cpp.obj.d"
+  "C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/src/player.cpp" "CMakeFiles/main.dir/src/player.cpp.obj" "gcc" "CMakeFiles/main.dir/src/player.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

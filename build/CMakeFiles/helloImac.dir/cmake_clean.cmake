@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/bin/helloImac.pdb"
   "CMakeFiles/helloImac.dir/src/main.cpp.obj"
   "CMakeFiles/helloImac.dir/src/main.cpp.obj.d"
+  "CMakeFiles/helloImac.dir/src/plateau.cpp.obj"
+  "CMakeFiles/helloImac.dir/src/plateau.cpp.obj.d"
   "CMakeFiles/helloImac.dir/src/player.cpp.obj"
   "CMakeFiles/helloImac.dir/src/player.cpp.obj.d"
   "libhelloImac.dll.a"

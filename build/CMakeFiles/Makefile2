@@ -62,11 +62,11 @@ CMAKE_BINARY_DIR = C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_Agat
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/helloImac.dir/all
+all: CMakeFiles/TicTacToe.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/helloImac.dir/codegen
+codegen: CMakeFiles/TicTacToe.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -74,40 +74,40 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/helloImac.dir/clean
+clean: CMakeFiles/TicTacToe.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/helloImac.dir
+# Target rules for target CMakeFiles/TicTacToe.dir
 
 # All Build rule for target.
-CMakeFiles/helloImac.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\helloImac.dir\build.make CMakeFiles/helloImac.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\helloImac.dir\build.make CMakeFiles/helloImac.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\build\CMakeFiles --progress-num=1,2,3 "Built target helloImac"
-.PHONY : CMakeFiles/helloImac.dir/all
+CMakeFiles/TicTacToe.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\build\CMakeFiles --progress-num=1,2,3,4 "Built target TicTacToe"
+.PHONY : CMakeFiles/TicTacToe.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/helloImac.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\build\CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/helloImac.dir/all
+CMakeFiles/TicTacToe.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\build\CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/TicTacToe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\build\CMakeFiles 0
-.PHONY : CMakeFiles/helloImac.dir/rule
+.PHONY : CMakeFiles/TicTacToe.dir/rule
 
 # Convenience name for target.
-helloImac: CMakeFiles/helloImac.dir/rule
-.PHONY : helloImac
+TicTacToe: CMakeFiles/TicTacToe.dir/rule
+.PHONY : TicTacToe
 
 # codegen rule for target.
-CMakeFiles/helloImac.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\helloImac.dir\build.make CMakeFiles/helloImac.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\build\CMakeFiles --progress-num=1,2,3 "Finished codegen for target helloImac"
-.PHONY : CMakeFiles/helloImac.dir/codegen
+CMakeFiles/TicTacToe.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\build\CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target TicTacToe"
+.PHONY : CMakeFiles/TicTacToe.dir/codegen
 
 # clean rule for target.
-CMakeFiles/helloImac.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\helloImac.dir\build.make CMakeFiles/helloImac.dir/clean
-.PHONY : CMakeFiles/helloImac.dir/clean
+CMakeFiles/TicTacToe.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/clean
+.PHONY : CMakeFiles/TicTacToe.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

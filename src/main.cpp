@@ -1,6 +1,7 @@
 #include <vector>
 #include <iostream> 
 #include "player.hpp"
+#include "plateau.hpp"
 
 int main() {
     std::cout << "Entrez les information du joueur 1 : ";
@@ -13,6 +14,8 @@ int main() {
     std::cout << joueur1.nom << " joue avec " << joueur1.symbol << "\n";
     std::cout << joueur2.nom << " joue avec " << joueur2.symbol << "\n";
 
+    std::cout << "Voici le plateau de jeu : ";
+    draw_game_board();
     return 0;
 }
 

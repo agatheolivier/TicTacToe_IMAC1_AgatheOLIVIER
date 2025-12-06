@@ -86,11 +86,26 @@ CMakeFiles/helloImac.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/helloImac.dir/src/main.cpp.s"
 	C:\Users\olivi\Downloads\Programmes\winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\src\main.cpp -o CMakeFiles\helloImac.dir\src\main.cpp.s
 
+CMakeFiles/helloImac.dir/src/plateau.cpp.obj: CMakeFiles/helloImac.dir/flags.make
+CMakeFiles/helloImac.dir/src/plateau.cpp.obj: CMakeFiles/helloImac.dir/includes_CXX.rsp
+CMakeFiles/helloImac.dir/src/plateau.cpp.obj: C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/src/plateau.cpp
+CMakeFiles/helloImac.dir/src/plateau.cpp.obj: CMakeFiles/helloImac.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/helloImac.dir/src/plateau.cpp.obj"
+	C:\Users\olivi\Downloads\Programmes\winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/helloImac.dir/src/plateau.cpp.obj -MF CMakeFiles\helloImac.dir\src\plateau.cpp.obj.d -o CMakeFiles\helloImac.dir\src\plateau.cpp.obj -c C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\src\plateau.cpp
+
+CMakeFiles/helloImac.dir/src/plateau.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/helloImac.dir/src/plateau.cpp.i"
+	C:\Users\olivi\Downloads\Programmes\winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\src\plateau.cpp > CMakeFiles\helloImac.dir\src\plateau.cpp.i
+
+CMakeFiles/helloImac.dir/src/plateau.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/helloImac.dir/src/plateau.cpp.s"
+	C:\Users\olivi\Downloads\Programmes\winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\src\plateau.cpp -o CMakeFiles\helloImac.dir\src\plateau.cpp.s
+
 CMakeFiles/helloImac.dir/src/player.cpp.obj: CMakeFiles/helloImac.dir/flags.make
 CMakeFiles/helloImac.dir/src/player.cpp.obj: CMakeFiles/helloImac.dir/includes_CXX.rsp
 CMakeFiles/helloImac.dir/src/player.cpp.obj: C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/src/player.cpp
 CMakeFiles/helloImac.dir/src/player.cpp.obj: CMakeFiles/helloImac.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/helloImac.dir/src/player.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/helloImac.dir/src/player.cpp.obj"
 	C:\Users\olivi\Downloads\Programmes\winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/helloImac.dir/src/player.cpp.obj -MF CMakeFiles\helloImac.dir\src\player.cpp.obj.d -o CMakeFiles\helloImac.dir\src\player.cpp.obj -c C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\src\player.cpp
 
 CMakeFiles/helloImac.dir/src/player.cpp.i: cmake_force
@@ -104,18 +119,20 @@ CMakeFiles/helloImac.dir/src/player.cpp.s: cmake_force
 # Object files for target helloImac
 helloImac_OBJECTS = \
 "CMakeFiles/helloImac.dir/src/main.cpp.obj" \
+"CMakeFiles/helloImac.dir/src/plateau.cpp.obj" \
 "CMakeFiles/helloImac.dir/src/player.cpp.obj"
 
 # External object files for target helloImac
 helloImac_EXTERNAL_OBJECTS =
 
 C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/bin/helloImac.exe: CMakeFiles/helloImac.dir/src/main.cpp.obj
+C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/bin/helloImac.exe: CMakeFiles/helloImac.dir/src/plateau.cpp.obj
 C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/bin/helloImac.exe: CMakeFiles/helloImac.dir/src/player.cpp.obj
 C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/bin/helloImac.exe: CMakeFiles/helloImac.dir/build.make
 C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/bin/helloImac.exe: CMakeFiles/helloImac.dir/linkLibs.rsp
 C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/bin/helloImac.exe: CMakeFiles/helloImac.dir/objects1.rsp
 C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/bin/helloImac.exe: CMakeFiles/helloImac.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\bin\helloImac.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\bin\helloImac.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\helloImac.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

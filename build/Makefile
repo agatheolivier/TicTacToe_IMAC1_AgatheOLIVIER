@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named helloImac
+# Target rules for targets named TicTacToe
 
 # Build rule for target.
-helloImac: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 helloImac
-.PHONY : helloImac
+TicTacToe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TicTacToe
+.PHONY : TicTacToe
 
 # fast build rule for target.
-helloImac/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\helloImac.dir\build.make CMakeFiles/helloImac.dir/build
-.PHONY : helloImac/fast
+TicTacToe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/build
+.PHONY : TicTacToe/fast
 
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
 # target to build an object file
 src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\helloImac.dir\build.make CMakeFiles/helloImac.dir/src/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/src/main.cpp.obj
 .PHONY : src/main.cpp.obj
 
 src/main.i: src/main.cpp.i
@@ -142,7 +142,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\helloImac.dir\build.make CMakeFiles/helloImac.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -150,15 +150,39 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\helloImac.dir\build.make CMakeFiles/helloImac.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
+
+src/plateau.obj: src/plateau.cpp.obj
+.PHONY : src/plateau.obj
+
+# target to build an object file
+src/plateau.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/src/plateau.cpp.obj
+.PHONY : src/plateau.cpp.obj
+
+src/plateau.i: src/plateau.cpp.i
+.PHONY : src/plateau.i
+
+# target to preprocess a source file
+src/plateau.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/src/plateau.cpp.i
+.PHONY : src/plateau.cpp.i
+
+src/plateau.s: src/plateau.cpp.s
+.PHONY : src/plateau.s
+
+# target to generate assembly for a file
+src/plateau.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/src/plateau.cpp.s
+.PHONY : src/plateau.cpp.s
 
 src/player.obj: src/player.cpp.obj
 .PHONY : src/player.obj
 
 # target to build an object file
 src/player.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\helloImac.dir\build.make CMakeFiles/helloImac.dir/src/player.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/src/player.cpp.obj
 .PHONY : src/player.cpp.obj
 
 src/player.i: src/player.cpp.i
@@ -166,7 +190,7 @@ src/player.i: src/player.cpp.i
 
 # target to preprocess a source file
 src/player.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\helloImac.dir\build.make CMakeFiles/helloImac.dir/src/player.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/src/player.cpp.i
 .PHONY : src/player.cpp.i
 
 src/player.s: src/player.cpp.s
@@ -174,7 +198,7 @@ src/player.s: src/player.cpp.s
 
 # target to generate assembly for a file
 src/player.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\helloImac.dir\build.make CMakeFiles/helloImac.dir/src/player.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/src/player.cpp.s
 .PHONY : src/player.cpp.s
 
 # Help Target
@@ -185,10 +209,13 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... helloImac
+	@echo ... TicTacToe
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/plateau.obj
+	@echo ... src/plateau.i
+	@echo ... src/plateau.s
 	@echo ... src/player.obj
 	@echo ... src/player.i
 	@echo ... src/player.s

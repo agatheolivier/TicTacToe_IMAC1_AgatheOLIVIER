@@ -1,33 +1,14 @@
-# la version de cmake à utiliser
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.20)
 
-# La version du C++ que l'on souhaite utiliser (dans notre cas C++17)
-set(CMAKE_CXX_STANDARD 17)
+project(TicTacToe)
+add_executable(${PROJECT_NAME})
+target_compile_features(${PROJECT_NAME} PRIVATE cxx_std_20)
 
-# Le nom du projet
-project(IMAC_project)
+# Set the folder where the executable is created
+set_target_properties(${PROJECT_NAME} PROPERTIES
+    RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin/${CMAKE_BUILD_TYPE})
 
-# Réglage du compilateur pour les warnings
-if (MSVC)
-    add_compile_options(/W3)
-else()
-    add_compile_options(-Wall -Wextra -Wpedantic -pedantic-errors)
-endif()
-
-# On souhaite placer l'exécutable dans un sous-dossier "bin" au lieu de le mettre dans le dossier build
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
-
-# Obtenir la liste des fichiers sources dans le dossier src
-file(GLOB_RECURSE SRC_FILES CONFIGURE_DEPENDS "src/*.cpp")
-
-# Optionnel : afficher la liste des fichiers sources
-message(STATUS "Found source files:")
-foreach(SRC_FILE ${SRC_FILES})
-    message(STATUS " - ${SRC_FILE}")
-endforeach()
-
-# On indique que l'on souhaite faire un exécutable avec nos fichiers sources
-add_executable(helloImac ${SRC_FILES})
-
-# le dossier contenant les fichiers d'en-tête pour notre executable helloImac
-target_include_directories(helloImac PUBLIC "src/")
+# Add all the source files
+file(GLOB_RECURSE MY_SOURCES CONFIGURE_DEPENDS src/*)
+target_sources(${PROJECT_NAME} PRIVATE ${MY_SOURCES})
+target_include_directories(${PROJECT_NAME} PRIVATE src)

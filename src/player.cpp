@@ -2,7 +2,6 @@
 #include <vector>
 #include <iostream>
 
-
 Player create_player() {
     static char PremierSymbolChoisi = '\0'; // garde sa valeur d’un appel à l’autre, sans avoir besoin de la passer en paramètre.
     Player joueur;
@@ -15,6 +14,11 @@ Player create_player() {
 
     while (joueur.symbol == PremierSymbolChoisi) {
         std::cout << "Symbole déjà pris par un autre joueur ! Choississez un autre symbole : ";
+        std::cin >> joueur.symbol;
+    }
+
+    if (joueur.symbol == '.') {
+        std::cout << "Vous ne pouvez pas choisir ce symbole. Choississez un autre symbole : ";
         std::cin >> joueur.symbol;
     }
 

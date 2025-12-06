@@ -1,75 +1,26 @@
-CMakeFiles/helloImac.dir/src/main.cpp.obj: \
- C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\src\main.cpp \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/vector \
+CMakeFiles/helloImac.dir/src/plateau.cpp.obj: \
+ C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\src\plateau.cpp \
+ C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\src\plateau.hpp \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/iostream \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/requires_hosted.h \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/os_defines.h \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/pstl/pstl_config.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/stl_algobase.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/functexcept.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/exception_defines.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/cpp_type_traits.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/ext/type_traits.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/ext/numeric_traits.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/stl_pair.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/type_traits \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/version.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/move.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/utility.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/stl_iterator_base_types.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/stl_iterator_base_funcs.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/concept_check.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/debug/assertions.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/stl_iterator.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/ptr_traits.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/debug/debug.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/predefined_ops.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bit \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/concepts \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/allocator.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/new_allocator.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/new \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/exception.h \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/ostream \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/ios \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/iosfwd \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/stringfwd.h \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/memoryfwd.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/stl_construct.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/stl_uninitialized.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/ext/alloc_traits.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/alloc_traits.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/stl_vector.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/initializer_list \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/stl_bvector.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/functional_hash.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/hash_bytes.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/refwrap.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/invoke.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/stl_function.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/backward/binders.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/range_access.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/vector.tcc \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/memory_resource.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/cstddef \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/x86_64-w64-mingw32/include/stddef.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/postypes.h \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/cwchar \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/x86_64-w64-mingw32/include/wchar.h \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/x86_64-w64-mingw32/include/corecrt.h \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/x86_64-w64-mingw32/include/_mingw.h \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/x86_64-w64-mingw32/include/vadefs.h \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/uses_allocator.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/uses_allocator_args.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/tuple \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/iostream \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/ostream \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/ios \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/iosfwd \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/stringfwd.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/postypes.h \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/cwchar \
- C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/x86_64-w64-mingw32/include/wchar.h \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
@@ -77,9 +28,19 @@ CMakeFiles/helloImac.dir/src/main.cpp.obj: \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/exception \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/exception.h \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/version.h \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/exception_ptr.h \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/exception_defines.h \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/cxxabi_init_exception.h \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/x86_64-w64-mingw32/include/stddef.h \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/typeinfo \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/hash_bytes.h \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/new \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/move.h \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/type_traits \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/nested_exception.h \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/char_traits.h \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/localefwd.h \
@@ -114,10 +75,40 @@ CMakeFiles/helloImac.dir/src/main.cpp.obj: \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/atomic_word.h \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/locale_classes.h \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/string \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/allocator.h \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/new_allocator.h \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/functexcept.h \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/cpp_type_traits.h \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/ostream_insert.h \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/cxxabi_forced.h \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/stl_iterator_base_funcs.h \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/concept_check.h \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/debug/assertions.h \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/stl_iterator_base_types.h \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/stl_iterator.h \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/ext/type_traits.h \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/ptr_traits.h \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/stl_function.h \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/backward/binders.h \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/ext/numeric_traits.h \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/stl_algobase.h \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/stl_pair.h \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/utility.h \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/debug/debug.h \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/predefined_ops.h \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bit \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/concepts \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/refwrap.h \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/invoke.h \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/range_access.h \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/initializer_list \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/basic_string.h \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/ext/alloc_traits.h \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/alloc_traits.h \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/stl_construct.h \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/string_view \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/functional_hash.h \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/string_view.tcc \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/ext/string_conversions.h \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/cstdlib \
@@ -131,6 +122,11 @@ CMakeFiles/helloImac.dir/src/main.cpp.obj: \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/cerrno \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/charconv.h \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/basic_string.tcc \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/memory_resource.h \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/cstddef \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/uses_allocator.h \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/uses_allocator_args.h \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/tuple \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/locale_classes.tcc \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/system_error \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/error_constants.h \
@@ -149,5 +145,5 @@ CMakeFiles/helloImac.dir/src/main.cpp.obj: \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/ostream.tcc \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/istream \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/istream.tcc \
- C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\src\player.hpp \
- C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\src\plateau.hpp
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/array \
+ C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/compare
