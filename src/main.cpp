@@ -15,6 +15,7 @@ int main() {
     std::cout << joueur2.nom << " joue avec " << joueur2.symbol << "\n";
 
     std::cout << "Voici le plateau de jeu : ";
+    std::cout << std::endl;
     draw_game_board();
     return 0;
 }

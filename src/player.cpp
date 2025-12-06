@@ -17,9 +17,12 @@ Player create_player() {
         std::cin >> joueur.symbol;
     }
 
-    if (joueur.symbol == '.') {
-        std::cout << "Vous ne pouvez pas choisir ce symbole. Choississez un autre symbole : ";
-        std::cin >> joueur.symbol;
+    //Vérifier que le joueur n'a pas pris un chiffre, sinon ça se confondera avec l'affichage du plateau de jeu de base
+    for (char i = '1'; i <= '9'; i++) {
+        if (joueur.symbol == i){
+            std::cout << "Vous ne pouvez pas choisir ce symbole. Choississez un autre symbole : ";
+            std::cin >> joueur.symbol;
+        }
     }
 
     PremierSymbolChoisi = joueur.symbol;
