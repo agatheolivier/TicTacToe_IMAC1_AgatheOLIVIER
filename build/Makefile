@@ -129,6 +129,30 @@ TicTacToe/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/build
 .PHONY : TicTacToe/fast
 
+src/gameplay.obj: src/gameplay.cpp.obj
+.PHONY : src/gameplay.obj
+
+# target to build an object file
+src/gameplay.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/src/gameplay.cpp.obj
+.PHONY : src/gameplay.cpp.obj
+
+src/gameplay.i: src/gameplay.cpp.i
+.PHONY : src/gameplay.i
+
+# target to preprocess a source file
+src/gameplay.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/src/gameplay.cpp.i
+.PHONY : src/gameplay.cpp.i
+
+src/gameplay.s: src/gameplay.cpp.s
+.PHONY : src/gameplay.s
+
+# target to generate assembly for a file
+src/gameplay.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/src/gameplay.cpp.s
+.PHONY : src/gameplay.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -210,6 +234,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... TicTacToe
+	@echo ... src/gameplay.obj
+	@echo ... src/gameplay.i
+	@echo ... src/gameplay.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/bin/Debug/TicTacToe.exe"
   "C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/bin/Debug/TicTacToe.exe.manifest"
   "C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/bin/Debug/TicTacToe.pdb"
+  "CMakeFiles/TicTacToe.dir/src/gameplay.cpp.obj"
+  "CMakeFiles/TicTacToe.dir/src/gameplay.cpp.obj.d"
   "CMakeFiles/TicTacToe.dir/src/main.cpp.obj"
   "CMakeFiles/TicTacToe.dir/src/main.cpp.obj.d"
   "CMakeFiles/TicTacToe.dir/src/plateau.cpp.obj"

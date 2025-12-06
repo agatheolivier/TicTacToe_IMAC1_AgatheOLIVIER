@@ -1,6 +1,12 @@
 [
 {
   "directory": "C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/build",
+  "command": "C:\\Users\\olivi\\Downloads\\Programmes\\winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3\\mingw64\\bin\\g++.exe  @CMakeFiles/TicTacToe.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\TicTacToe.dir\\src\\gameplay.cpp.obj -c C:\\Users\\olivi\\Documents\\IMAC\\ProgAlgo\\S1\\TicTacToe_IMAC_AgatheOLIVIER\\src\\gameplay.cpp",
+  "file": "C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/src/gameplay.cpp",
+  "output": "CMakeFiles/TicTacToe.dir/src/gameplay.cpp.obj"
+},
+{
+  "directory": "C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/build",
   "command": "C:\\Users\\olivi\\Downloads\\Programmes\\winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3\\mingw64\\bin\\g++.exe  @CMakeFiles/TicTacToe.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\TicTacToe.dir\\src\\main.cpp.obj -c C:\\Users\\olivi\\Documents\\IMAC\\ProgAlgo\\S1\\TicTacToe_IMAC_AgatheOLIVIER\\src\\main.cpp",
   "file": "C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/src/main.cpp",
   "output": "CMakeFiles/TicTacToe.dir/src/main.cpp.obj"
