@@ -9,23 +9,29 @@ Player create_player() {
     std::cout << "Entrez le nom du joueur : ";
     std::cin >> joueur.nom;
 
-    std::cout << "Choisissez un symbole (ex: X ou O) : ";
-    std::cin >> joueur.symbol;
-
-    while (joueur.symbol == PremierSymbolChoisi) {
-        std::cout << "Symbole déjà pris par un autre joueur ! Choississez un autre symbole : ";
+    bool symbole_valide = false;
+    do {
+        std::cout << "Choisissez un symbole (ex: X ou O) : ";
         std::cin >> joueur.symbol;
-    }
 
-    //Vérifier que le joueur n'a pas pris un chiffre, sinon ça se confondera avec l'affichage du plateau de jeu de base
-    for (char i = '1'; i <= '9'; i++) {
-        if (joueur.symbol == i){
-            std::cout << "Vous ne pouvez pas choisir ce symbole. Choississez un autre symbole : ";
-            std::cin >> joueur.symbol;
+        if (joueur.symbol == PremierSymbolChoisi) {
+            std::cout << "Symbole déjà pris par un autre joueur !";
+            continue; //Revient au début de la boucle
         }
-    }
 
-    PremierSymbolChoisi = joueur.symbol;
+        //Vérifier que le joueur n'a pas pris un chiffre, sinon ça se confondera avec l'affichage du plateau de jeu de base
+        if (joueur.symbol >= '1' && joueur.symbol <= '9') {
+            std::cout << "Vous ne pouvez pas choisir ce symbole.";
+            continue;  
+        }
+        
+        //Si ça ne remplit pas les deux if le symbole est bon
+        symbole_valide = true;
+    } while (!symbole_valide); //Condition d'arrête de la boucle
+    
+    if (PremierSymbolChoisi == '\0') {
+        PremierSymbolChoisi = joueur.symbol;
+    }
 
     return joueur;
 }

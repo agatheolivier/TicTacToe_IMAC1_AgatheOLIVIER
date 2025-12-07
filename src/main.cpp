@@ -5,7 +5,9 @@
 #include "gameplay.hpp"
 
 int main() {
-        std::cout << "Entrez les information du joueur 1 : ";
+    std::array<char, 9> plateau = {'1','2','3','4','5','6','7','8','9'};
+
+    std::cout << "Entrez les information du joueur 1 : ";
     Player joueur1 = create_player();
 
     std::cout << "Entrez les information du joueur 2 : ";
@@ -17,8 +19,8 @@ int main() {
 
     std::cout << "Voici le plateau de jeu : ";
     std::cout << std::endl;
-    draw_game_board();
+    draw_game_board(plateau);
     
-    multijoueur_partie (joueur1, joueur2, std::array<int, 9> plateau = {1,2,3,4,5,6,7,8,9});
+    multijoueur_partie (joueur1, joueur2, plateau);
 }
 

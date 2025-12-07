@@ -21,27 +21,31 @@
     return joueur1, joueur2;
 } */
 
-void multijoueur_partie (Player joueur1, Player joueur2, std::array<int, 9> plateau){
+void multijoueur_partie (Player joueur1, Player joueur2, std::array<char, 9>& plateau){
     int emplacement = 0;
-    int index = emplacement - 1; 
 
     std::cout << "C'est au joueur 1 de jouer, choississez votre case : ";
     std::cin >> emplacement;
+
+    int index = emplacement - 1; 
+
     if (plateau[index] != joueur1.symbol && plateau[index] != joueur2.symbol) { // la case est libre
         plateau[index] = joueur1.symbol;
     } else {
         std::cout << "Cette case est déjà prise, choisissez une autre case" << std::endl;
     }
-        draw_game_board();
+    draw_game_board(plateau);
 
     std::cout << "C'est au joueur 2 de jouer, choississez votre case : ";
     std::cin >> emplacement;
+
+    index = emplacement - 1; 
+
     if (plateau[index] != joueur1.symbol && plateau[index] != joueur2.symbol) { // la case est libre
         plateau[index] = joueur2.symbol;
     } else {
         std::cout << "Cette case est déjà prise, choisissez une autre case" << std::endl;
     }
-
-    draw_game_board();
+    draw_game_board(plateau);
 
 }
