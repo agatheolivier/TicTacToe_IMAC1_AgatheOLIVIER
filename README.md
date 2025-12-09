@@ -21,3 +21,10 @@ J'avais donc la bonne logique mais les deux vérifications se faisaient séparem
         }
     }
 J'ai donc retravailler le code pour régler cette faille
+
+************************************************ GAMEPLAY **********************************************************
+
+En testant la possibilité de poser ses symboles, j'ai découvert une nouvelle faille : si le joueur choisi 0 ou un
+nombre supérieur à 10, son tour est passé.
+
+J'ai donc ajouté la boucle while après la sélection de l'emplacement.

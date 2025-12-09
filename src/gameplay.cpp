@@ -23,29 +23,50 @@
 
 void multijoueur_partie (Player joueur1, Player joueur2, std::array<char, 9>& plateau){
     int emplacement = 0;
+    int nombredetours = 1; 
 
-    std::cout << "C'est au joueur 1 de jouer, choississez votre case : ";
-    std::cin >> emplacement;
+    while (nombredetours < 10) {
+        //Joueur 1 de jouer
+        if (nombredetours % 2 != 0) {
+            std::cout << "C'est au joueur 1 de jouer, choississez votre case : ";
+            std::cin >> emplacement;
 
-    int index = emplacement - 1; 
+            while (emplacement < 1 || emplacement > 9) {
+                std::cout << "Cette case n'existe pas. Choississez une nouvelle case :";
+                std::cin >> emplacement;
+            }
 
-    if (plateau[index] != joueur1.symbol && plateau[index] != joueur2.symbol) { // la case est libre
-        plateau[index] = joueur1.symbol;
-    } else {
-        std::cout << "Cette case est déjà prise, choisissez une autre case" << std::endl;
+            int index = emplacement - 1; 
+
+            if (plateau[index] != joueur1.symbol && plateau[index] != joueur2.symbol) { // la case est libre
+                plateau[index] = joueur1.symbol;
+                nombredetours++;
+            } else {
+                std::cout << "Cette case est déjà prise, choisissez une autre case" << std::endl;
+            }
+            draw_game_board(plateau);
+        } 
+        //Joueur 2 de jouer
+        else {
+            std::cout << "C'est au joueur 2 de jouer, choississez votre case : ";
+            std::cin >> emplacement;
+
+            while (emplacement < 1 || emplacement > 9) {
+                std::cout << "Cette case n'existe pas. Choississez une nouvelle case :";
+                std::cin >> emplacement;
+            }
+
+            int index = emplacement - 1; 
+
+            if (plateau[index] != joueur1.symbol && plateau[index] != joueur2.symbol) { // la case est libre
+                plateau[index] = joueur2.symbol;
+                nombredetours++;
+            } else {
+                std::cout << "Cette case est déjà prise, choisissez une autre case" << std::endl;
+            }
+            draw_game_board(plateau);
+        }
     }
-    draw_game_board(plateau);
-
-    std::cout << "C'est au joueur 2 de jouer, choississez votre case : ";
-    std::cin >> emplacement;
-
-    index = emplacement - 1; 
-
-    if (plateau[index] != joueur1.symbol && plateau[index] != joueur2.symbol) { // la case est libre
-        plateau[index] = joueur2.symbol;
-    } else {
-        std::cout << "Cette case est déjà prise, choisissez une autre case" << std::endl;
-    }
-    draw_game_board(plateau);
-
+    std::cout << "La partie est terminée !" << std::endl;
+    return;
 }
