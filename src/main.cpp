@@ -4,7 +4,7 @@
 #include "plateau.hpp"
 #include "gameplay.hpp"
 
-int main() {
+void main() {
     std::array<char, 9> plateau = {'1','2','3','4','5','6','7','8','9'};
 
     std::cout << "Entrez les information du joueur 1 : ";
