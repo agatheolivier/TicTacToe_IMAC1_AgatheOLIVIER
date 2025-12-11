@@ -7,6 +7,8 @@ file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/olivi/Documents/IMAC
 set(OLD_GLOB
   "C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/src/gameplay.cpp"
   "C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/src/gameplay.hpp"
+  "C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/src/ia.cpp"
+  "C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/src/ia.hpp"
   "C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/src/main.cpp"
   "C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/src/plateau.cpp"
   "C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/src/plateau.hpp"

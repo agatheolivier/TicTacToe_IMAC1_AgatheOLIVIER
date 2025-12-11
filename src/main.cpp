@@ -3,6 +3,7 @@
 #include "player.hpp"
 #include "plateau.hpp"
 #include "gameplay.hpp"
+#include "ia.hpp"
 
 int main() {
     std::array<char, 9> plateau = {'1','2','3','4','5','6','7','8','9'};
@@ -27,7 +28,7 @@ int main() {
         multijoueur_partie(players.first, players.second, plateau); //Les passe en paramètre pour la seconde
     }
     else {
-        std::cout << "Vous avez choisi le mode de jeu IA" << std::endl;
+        std::pair<Player, Player>  players =  solo_debut(plateau); //Récupère le return de la fonction
     }
     return 0;
 }

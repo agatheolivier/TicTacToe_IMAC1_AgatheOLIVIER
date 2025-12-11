@@ -1,5 +1,6 @@
-CMakeFiles/TicTacToe.dir/src/main.cpp.obj: \
- C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\src\main.cpp \
+CMakeFiles/TicTacToe.dir/src/ia.cpp.obj: \
+ C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\src\ia.cpp \
+ C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\src\player.hpp \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/vector \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/requires_hosted.h \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -156,7 +157,6 @@ CMakeFiles/TicTacToe.dir/src/main.cpp.obj: \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/ostream.tcc \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/istream \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/bits/istream.tcc \
- C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\src\player.hpp \
  C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\src\plateau.hpp \
  C:/Users/olivi/Downloads/Programmes/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/include/c++/14.2.0/array \
  C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\src\gameplay.hpp \

@@ -86,11 +86,26 @@ CMakeFiles/TicTacToe.dir/src/gameplay.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TicTacToe.dir/src/gameplay.cpp.s"
 	C:\Users\olivi\Downloads\Programmes\winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\src\gameplay.cpp -o CMakeFiles\TicTacToe.dir\src\gameplay.cpp.s
 
+CMakeFiles/TicTacToe.dir/src/ia.cpp.obj: CMakeFiles/TicTacToe.dir/flags.make
+CMakeFiles/TicTacToe.dir/src/ia.cpp.obj: CMakeFiles/TicTacToe.dir/includes_CXX.rsp
+CMakeFiles/TicTacToe.dir/src/ia.cpp.obj: C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/src/ia.cpp
+CMakeFiles/TicTacToe.dir/src/ia.cpp.obj: CMakeFiles/TicTacToe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TicTacToe.dir/src/ia.cpp.obj"
+	C:\Users\olivi\Downloads\Programmes\winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TicTacToe.dir/src/ia.cpp.obj -MF CMakeFiles\TicTacToe.dir\src\ia.cpp.obj.d -o CMakeFiles\TicTacToe.dir\src\ia.cpp.obj -c C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\src\ia.cpp
+
+CMakeFiles/TicTacToe.dir/src/ia.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TicTacToe.dir/src/ia.cpp.i"
+	C:\Users\olivi\Downloads\Programmes\winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\src\ia.cpp > CMakeFiles\TicTacToe.dir\src\ia.cpp.i
+
+CMakeFiles/TicTacToe.dir/src/ia.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TicTacToe.dir/src/ia.cpp.s"
+	C:\Users\olivi\Downloads\Programmes\winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\src\ia.cpp -o CMakeFiles\TicTacToe.dir\src\ia.cpp.s
+
 CMakeFiles/TicTacToe.dir/src/main.cpp.obj: CMakeFiles/TicTacToe.dir/flags.make
 CMakeFiles/TicTacToe.dir/src/main.cpp.obj: CMakeFiles/TicTacToe.dir/includes_CXX.rsp
 CMakeFiles/TicTacToe.dir/src/main.cpp.obj: C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/src/main.cpp
 CMakeFiles/TicTacToe.dir/src/main.cpp.obj: CMakeFiles/TicTacToe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TicTacToe.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TicTacToe.dir/src/main.cpp.obj"
 	C:\Users\olivi\Downloads\Programmes\winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TicTacToe.dir/src/main.cpp.obj -MF CMakeFiles\TicTacToe.dir\src\main.cpp.obj.d -o CMakeFiles\TicTacToe.dir\src\main.cpp.obj -c C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\src\main.cpp
 
 CMakeFiles/TicTacToe.dir/src/main.cpp.i: cmake_force
@@ -105,7 +120,7 @@ CMakeFiles/TicTacToe.dir/src/plateau.cpp.obj: CMakeFiles/TicTacToe.dir/flags.mak
 CMakeFiles/TicTacToe.dir/src/plateau.cpp.obj: CMakeFiles/TicTacToe.dir/includes_CXX.rsp
 CMakeFiles/TicTacToe.dir/src/plateau.cpp.obj: C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/src/plateau.cpp
 CMakeFiles/TicTacToe.dir/src/plateau.cpp.obj: CMakeFiles/TicTacToe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TicTacToe.dir/src/plateau.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TicTacToe.dir/src/plateau.cpp.obj"
 	C:\Users\olivi\Downloads\Programmes\winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TicTacToe.dir/src/plateau.cpp.obj -MF CMakeFiles\TicTacToe.dir\src\plateau.cpp.obj.d -o CMakeFiles\TicTacToe.dir\src\plateau.cpp.obj -c C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\src\plateau.cpp
 
 CMakeFiles/TicTacToe.dir/src/plateau.cpp.i: cmake_force
@@ -120,7 +135,7 @@ CMakeFiles/TicTacToe.dir/src/player.cpp.obj: CMakeFiles/TicTacToe.dir/flags.make
 CMakeFiles/TicTacToe.dir/src/player.cpp.obj: CMakeFiles/TicTacToe.dir/includes_CXX.rsp
 CMakeFiles/TicTacToe.dir/src/player.cpp.obj: C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/src/player.cpp
 CMakeFiles/TicTacToe.dir/src/player.cpp.obj: CMakeFiles/TicTacToe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TicTacToe.dir/src/player.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TicTacToe.dir/src/player.cpp.obj"
 	C:\Users\olivi\Downloads\Programmes\winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TicTacToe.dir/src/player.cpp.obj -MF CMakeFiles\TicTacToe.dir\src\player.cpp.obj.d -o CMakeFiles\TicTacToe.dir\src\player.cpp.obj -c C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\src\player.cpp
 
 CMakeFiles/TicTacToe.dir/src/player.cpp.i: cmake_force
@@ -134,6 +149,7 @@ CMakeFiles/TicTacToe.dir/src/player.cpp.s: cmake_force
 # Object files for target TicTacToe
 TicTacToe_OBJECTS = \
 "CMakeFiles/TicTacToe.dir/src/gameplay.cpp.obj" \
+"CMakeFiles/TicTacToe.dir/src/ia.cpp.obj" \
 "CMakeFiles/TicTacToe.dir/src/main.cpp.obj" \
 "CMakeFiles/TicTacToe.dir/src/plateau.cpp.obj" \
 "CMakeFiles/TicTacToe.dir/src/player.cpp.obj"
@@ -142,6 +158,7 @@ TicTacToe_OBJECTS = \
 TicTacToe_EXTERNAL_OBJECTS =
 
 C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/bin/Debug/TicTacToe.exe: CMakeFiles/TicTacToe.dir/src/gameplay.cpp.obj
+C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/bin/Debug/TicTacToe.exe: CMakeFiles/TicTacToe.dir/src/ia.cpp.obj
 C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/bin/Debug/TicTacToe.exe: CMakeFiles/TicTacToe.dir/src/main.cpp.obj
 C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/bin/Debug/TicTacToe.exe: CMakeFiles/TicTacToe.dir/src/plateau.cpp.obj
 C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/bin/Debug/TicTacToe.exe: CMakeFiles/TicTacToe.dir/src/player.cpp.obj
@@ -149,7 +166,7 @@ C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/bin/Debug
 C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/bin/Debug/TicTacToe.exe: CMakeFiles/TicTacToe.dir/linkLibs.rsp
 C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/bin/Debug/TicTacToe.exe: CMakeFiles/TicTacToe.dir/objects1.rsp
 C:/Users/olivi/Documents/IMAC/ProgAlgo/S1/TicTacToe_IMAC_AgatheOLIVIER/bin/Debug/TicTacToe.exe: CMakeFiles/TicTacToe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\bin\Debug\TicTacToe.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable C:\Users\olivi\Documents\IMAC\ProgAlgo\S1\TicTacToe_IMAC_AgatheOLIVIER\bin\Debug\TicTacToe.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\TicTacToe.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

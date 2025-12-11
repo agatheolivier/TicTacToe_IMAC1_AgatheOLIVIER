@@ -153,6 +153,30 @@ src/gameplay.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/src/gameplay.cpp.s
 .PHONY : src/gameplay.cpp.s
 
+src/ia.obj: src/ia.cpp.obj
+.PHONY : src/ia.obj
+
+# target to build an object file
+src/ia.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/src/ia.cpp.obj
+.PHONY : src/ia.cpp.obj
+
+src/ia.i: src/ia.cpp.i
+.PHONY : src/ia.i
+
+# target to preprocess a source file
+src/ia.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/src/ia.cpp.i
+.PHONY : src/ia.cpp.i
+
+src/ia.s: src/ia.cpp.s
+.PHONY : src/ia.s
+
+# target to generate assembly for a file
+src/ia.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/src/ia.cpp.s
+.PHONY : src/ia.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -237,6 +261,9 @@ help:
 	@echo ... src/gameplay.obj
 	@echo ... src/gameplay.i
 	@echo ... src/gameplay.s
+	@echo ... src/ia.obj
+	@echo ... src/ia.i
+	@echo ... src/ia.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
