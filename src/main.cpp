@@ -4,23 +4,31 @@
 #include "plateau.hpp"
 #include "gameplay.hpp"
 
-void main() {
+int main() {
     std::array<char, 9> plateau = {'1','2','3','4','5','6','7','8','9'};
+    char mode;
+    bool mode_valide = false;
 
-    std::cout << "Entrez les information du joueur 1 : ";
-    Player joueur1 = create_player();
+    do {
+        std::cout << "Choississez votre mode de jeu. 1 pour multijoueur, 2 pour jouer contre une IA :" << std::endl;
+        std::cin >> mode;
 
-    std::cout << "Entrez les information du joueur 2 : ";
-    Player joueur2 = create_player();
+        if (mode != '1' && mode != '2') {
+            std::cout << "Le mode de jeu choisi est invalide." << std::endl;
+            continue;
+        }
+        
+        mode_valide = true;
+    } while (!mode_valide);
 
-    std::cout << "Récapitulatif des joueurs : ";
-    std::cout << joueur1.nom << " joue avec " << joueur1.symbol << "\n";
-    std::cout << joueur2.nom << " joue avec " << joueur2.symbol << "\n";
 
-    std::cout << "Voici le plateau de jeu : ";
-    std::cout << std::endl;
-    draw_game_board(plateau);
-    
-    multijoueur_partie (joueur1, joueur2, plateau);
+    if (mode == '1') {
+        std::pair<Player, Player>  players =  multijoueur_debut(plateau); //Récupère le return de la fonction
+        multijoueur_partie(players.first, players.second, plateau); //Les passe en paramètre pour la seconde
+    }
+    else {
+        std::cout << "Vous avez choisi le mode de jeu IA" << std::endl;
+    }
+    return 0;
 }
 

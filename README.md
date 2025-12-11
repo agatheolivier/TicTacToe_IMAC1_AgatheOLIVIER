@@ -28,3 +28,12 @@ En testant la possibilité de poser ses symboles, j'ai découvert une nouvelle f
 nombre supérieur à 10, son tour est passé.
 
 J'ai donc ajouté la boucle while après la sélection de l'emplacement.
+
+Au départ le code de ma fonction multijoueur_debut était dans le main car je n'arrivais pas à récupérer les joueurs
+qui étaient return pour les passer en paramètre.
+Avec l'ajout du second de jeu, j'ai estimé que c'était plus simple de le passer en fonction.
+Jules m'a aidé avec std::pair<Player, Player> .
+
+************************************************ MODE DE JEU **********************************************************
+
+Pour la sélection du mode de jeu, j'ai repris la logique de la boucle do while de player.
