@@ -25,7 +25,7 @@ std::pair<Player, Player> solo_debut (std::array<char, 9>& plateau){
 
 /****************************************** PARTIE SOLO *****************************************************/
 
-
+/* 
 void multijoueur_partie (Player joueur1, Player joueur2, std::array<char, 9>& plateau){
     int emplacement = 0;
     int nombredetours = 1; 
@@ -76,3 +76,4 @@ void multijoueur_partie (Player joueur1, Player joueur2, std::array<char, 9>& pl
     }
     std::cout << "La partie est terminée !" << std::endl;
     return;
+} */

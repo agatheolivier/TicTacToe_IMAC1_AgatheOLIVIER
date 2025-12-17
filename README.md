@@ -29,6 +29,9 @@ nombre supérieur à 10, son tour est passé.
 
 J'ai donc ajouté la boucle while après la sélection de l'emplacement.
 
+Même chose dans la boucle while de multijoueur_debut, j'ai ajouté un !(std::cin >> emplacement) pour éviter une erreur
+si le joueur rentre une lettre à la place d'un chiffre pour le choix d'une case
+
 Au départ le code de ma fonction multijoueur_debut était dans le main car je n'arrivais pas à récupérer les joueurs
 qui étaient return pour les passer en paramètre.
 Avec l'ajout du second de jeu, j'ai estimé que c'était plus simple de le passer en fonction.
