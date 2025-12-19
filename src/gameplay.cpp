@@ -36,9 +36,9 @@ QuiAGagne Victoire (Player joueur1, Player joueur2, std::array<char, 9>& plateau
         else if (plateau[c4] == joueur2.symbol && plateau[c5] == joueur2.symbol && plateau[c6] == joueur2.symbol){
             return QuiAGagne::Player2;
         }
-        c4++;
-        c5++;
-        c6++;
+        c4 += 3;
+        c5 += 3;
+        c6 += 3;
     }
 
     //Diagonal n°1
@@ -136,8 +136,11 @@ void multijoueur_partie (Player joueur1, Player joueur2, std::array<char, 9>& pl
     if (gagnant == QuiAGagne::Player1) {
         std::cout << "Felicitation ! Le joueur " << joueur1.nom << " a gagné !";
     }
-    if (gagnant == QuiAGagne::Player2) {
+    else if (gagnant == QuiAGagne::Player2) {
         std::cout << "Felicitation ! Le joueur " << joueur2.nom << " a gagné !";
+    }
+    else {
+        std::cout << "C'est une égalité. ";
     }
     std::cout << "La partie est terminee !" << std::endl;
     return;

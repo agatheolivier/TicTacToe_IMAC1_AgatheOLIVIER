@@ -4,6 +4,8 @@
 #include "ia.hpp"
 #include <iostream>
 #include <array>
+#include <cstdlib> // pour std::rand et std::srand
+#include <ctime>   // pour std::time
 
 /******************************** INITIALISATION SOLO *****************************************************/
 
@@ -95,6 +97,7 @@ void solo_partie (Player joueur1, Player joueur2, std::array<char, 9>& plateau){
             if (gagnantTest == QuiAGagne::Personne) { //Si pas deux symboles allignés, alors l'IA joue un coup aléatoire
                 int indexIA;
                 do {
+                    std::srand(std::time(nullptr)); //Evite que ce soit toujours le même nombre aléatoire à chaque lancement
                     indexIA = std::rand() % 9; //Un nombre entre 0 et 8, change jusqu'à ce que ce soit une case vide
                 } while (plateau[indexIA] == joueur1.symbol || plateau[indexIA] == joueur2.symbol);
 
