@@ -61,27 +61,4 @@ De ce fait, l'IA jouait le premier coup valide, qu'il soit défensif ou attaquan
 Mais logiquement, l'IA doit attaquer en premier plutôt que de défendre : pas besoin de défendre si on a gagné.
 J'ai donc changé mon code pour celui actuel en séparant attaque et défense, avec l'attaque en premier.
 
-Mon IA est fonctionnelle : elle attaque et défend. Il y a un unique bug que je n'ai pas réussi à résoudre.
-Voici le cas de figure :<br>
-C'est a votre tour de jouer, choississez votre case : 3 <br>
-|1|2|A| <br>
-|X|A|6| <br>
-|7|8|9| <br>
-C'est au de l'IA de jouer. <br>
-|1|2|A| <br>
-|X|A|6| <br>
-|X|8|9| <br>
-> L'IA défend correctement, la fonction marche bien pour les diagonales
-
-C'est a votre tour de jouer, choississez votre case : 1 <br>
-|A|2|A| <br>
-|X|A|6| <br>
-|X|8|9| <br>
-C'est au de l'IA de jouer. <br>
-|A|X|A| <br>
-|X|A|6| <br>
-|X|8|9| <br>
-> Mais elle ne défend jamais la seconde diagonale attaquée, elle aurait du jouer en 9.
-
-Je n'ai pas réussi à comprendre d'où vient le problème.
-A part ce cas de figure, l'IA est 100% fonctionnel.
+Mon IA est fonctionnelle : elle attaque et défend.
