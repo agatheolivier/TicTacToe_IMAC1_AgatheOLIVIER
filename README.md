@@ -40,3 +40,12 @@ Jules m'a aidé avec std::pair<Player, Player> .
 ************************************************ MODE DE JEU **********************************************************
 
 Pour la sélection du mode de jeu, j'ai repris la logique de la boucle do while de player.
+
+Jules m'a aidé pour la logique de l'IA. L'idée est de créé une copie du tableau. A l'aide de ma fonction victoire, je vérifie si l'IA peut gagner en jouant un coup précis (attaque), et si le joueur peut gagner également (défense).
+
+Mon premier essaie fonctionnait, mais j'avais regroupé dans la même boucle if la défense et l'attaque.
+De ce fait, l'IA jouait le premier coup valide, qu'il soit défensif ou attaquant.
+Mais logiquement, l'IA doit attaquer en premier plutôt que de défendre : pas besoin de défendre si on a gagné.
+
+J'ai donc changé mon code pour celui actuel en séparant attaque et défense, et en ajoutant un boléen pour savoir
+si l'IA a joué.

@@ -12,7 +12,7 @@ std::pair<Player, Player> solo_debut (std::array<char, 9>& plateau){
     Player joueur1 = create_player();
     Player joueur2 = create_ia(joueur1);
 
-    std::cout << "Récapitulatif des joueurs : ";
+    std::cout << "Recapitulatif des joueurs : ";
     std::cout << joueur1.nom << " joue avec " << joueur1.symbol << "\n";
     std::cout << joueur2.nom << " joue avec " << joueur2.symbol << "\n";
 
@@ -25,21 +25,21 @@ std::pair<Player, Player> solo_debut (std::array<char, 9>& plateau){
 
 /****************************************** PARTIE SOLO *****************************************************/
 
-/* 
-void multijoueur_partie (Player joueur1, Player joueur2, std::array<char, 9>& plateau){
+void solo_partie (Player joueur1, Player joueur2, std::array<char, 9>& plateau){
     int emplacement = 0;
     int nombredetours = 1; 
-    bool victoire = false;
+    QuiAGagne gagnant = QuiAGagne::Personne;
+    QuiAGagne gagnantTest = QuiAGagne::Personne;
 
-    while (nombredetours < 10 && !victoire) {
-        //Joueur de jouer
+    while (nombredetours < 10 && gagnant == QuiAGagne::Personne) {
+        //Joueur 1 de jouer
         if (nombredetours % 2 != 0) {
-            std::cout << "C'est à votre tour de jouer, choississez votre case : ";
-            std::cin >> emplacement;
+            std::cout << "C'est a votre tour de jouer, choississez votre case : ";
 
-            while (emplacement < 1 || emplacement > 9) {
+            while (!(std::cin >> emplacement) || emplacement < 1 || emplacement > 9) {
+                std::cin.clear(); // enlève l’erreur
+                std::cin.ignore(1000, '\n');
                 std::cout << "Cette case n'existe pas. Choississez une nouvelle case :";
-                std::cin >> emplacement;
             }
 
             int index = emplacement - 1; 
@@ -48,32 +48,69 @@ void multijoueur_partie (Player joueur1, Player joueur2, std::array<char, 9>& pl
                 plateau[index] = joueur1.symbol;
                 nombredetours++;
             } else {
-                std::cout << "Cette case est déjà prise, choisissez une autre case" << std::endl;
+                std::cout << "Cette case est deja prise, choisissez une autre case" << std::endl;
             }
             draw_game_board(plateau);
-            Victoire (joueur1, joueur2, plateau, victoire);
-
+            gagnant = Victoire (joueur1, joueur2, plateau);
         } 
-
-        //IA de jouer
+        //Joueur 2 de jouer
         else {
-            std::cout << "C'est à l'IA de jouer : ";
+            std::cout << "C'est au de l'IA de jouer. " << std::endl;
 
-            //Etape n°1 : Je créais une copie du plateau actuel pour faire mes vérifs
-            std::array<char, 9> verifvictoire = plateau; 
+            //Attaque en priorié
+            for (size_t indexIA = 0; indexIA < 9; indexIA++) {
+                //Si la case est occupée, on ne fait pas les autres vérifs
+                if (plateau[indexIA] == joueur1.symbol || plateau[indexIA] == joueur2.symbol) {
+                    continue;
+                }
 
-            int index = emplacement - 1; 
-
-            if (plateau[index] != joueur1.symbol && plateau[index] != joueur2.symbol) { // la case est libre
-                plateau[index] = joueur2.symbol;
-                nombredetours++;
-            } else {
-                std::cout << "Cette case est déjà prise, choisissez une autre case" << std::endl;
+                //Test si l'IA a deux symbole alignés
+                std::array<char, 9> plateauTest = plateau; //On dublique le plateau
+                plateauTest[indexIA] = joueur2.symbol; //On joue sur le plateau test
+                gagnantTest = Victoire (joueur1, joueur2, plateauTest); //Si ce coup nous fait gagner, on le joue, sinon on continue
+                if (gagnantTest == QuiAGagne::Player2) {
+                    plateau[indexIA] = joueur2.symbol;
+                    break;
+                }
             }
+
+            //Si pas d'attaque possible, on vérifie la défense
+            if (gagnantTest == QuiAGagne::Personne) {
+                for (size_t indexIA = 0; indexIA < 9; indexIA++) {
+                    if (plateau[indexIA] == joueur1.symbol || plateau[indexIA] == joueur2.symbol) {
+                        continue;
+                    }
+
+                    std::array<char, 9> plateauTest = plateau; //On réinitialise le plateau test
+                    plateauTest[indexIA] = joueur1.symbol; //On fait comme si le joueur jouait le coup sur plateau test
+                    gagnantTest = Victoire (joueur1, joueur2, plateauTest); //Si le joueur 1 gagne, on joue le coup pour contrer
+                    if (gagnantTest == QuiAGagne::Player1) {
+                        plateau[indexIA] = joueur2.symbol;
+                        break;
+                    }
+                }
+            }
+            
+            //Si pas d'attaque ni de défense, alors coup aléatoire
+            if (gagnantTest == QuiAGagne::Personne) { //Si pas deux symboles allignés, alors l'IA joue un coup aléatoire
+                int indexIA;
+                do {
+                    indexIA = std::rand() % 9; //Un nombre entre 0 et 8, change jusqu'à ce que ce soit une case vide
+                } while (plateau[indexIA] == joueur1.symbol || plateau[indexIA] == joueur2.symbol);
+
+                plateau[indexIA] = joueur2.symbol;
+            }
+            nombredetours++;
             draw_game_board(plateau);
-            Victoire (joueur1, joueur2, plateau, victoire);
+            gagnant = Victoire (joueur1, joueur2, plateau);
         }
     }
-    std::cout << "La partie est terminée !" << std::endl;
+    if (gagnant == QuiAGagne::Player1) {
+        std::cout << "Felicitation ! Le joueur " << joueur1.nom << " a gagne !" << std::endl;
+    }
+    if (gagnant == QuiAGagne::Player2) {
+        std::cout << "Dommage, l'IA a gagne. Vous ferez mieux la prochaine fois" << std::endl;
+    }
+    std::cout << "La partie est terminee !" << std::endl;
     return;
-} */
+}

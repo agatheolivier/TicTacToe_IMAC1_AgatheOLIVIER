@@ -29,6 +29,7 @@ int main() {
     }
     else {
         std::pair<Player, Player>  players =  solo_debut(plateau); //Récupère le return de la fonction
+        solo_partie(players.first, players.second, plateau);
     }
     return 0;
 }

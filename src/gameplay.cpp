@@ -69,7 +69,7 @@ std::pair<Player, Player> multijoueur_debut (std::array<char, 9>& plateau){
     std::cout << "Entrez les information du joueur 2 : ";
     Player joueur2 = create_player();
 
-    std::cout << "Récapitulatif des joueurs : ";
+    std::cout << "Recapitulatif des joueurs : ";
     std::cout << joueur1.nom << " joue avec " << joueur1.symbol << "\n";
     std::cout << joueur2.nom << " joue avec " << joueur2.symbol << "\n";
 
@@ -114,11 +114,11 @@ void multijoueur_partie (Player joueur1, Player joueur2, std::array<char, 9>& pl
         //Joueur 2 de jouer
         else {
             std::cout << "C'est au joueur 2 de jouer, choississez votre case : ";
-            std::cin >> emplacement;
 
-            while (emplacement < 1 || emplacement > 9) {
+            while (!(std::cin >> emplacement) || emplacement < 1 || emplacement > 9) {
+                std::cin.clear(); // enlève l’erreur
+                std::cin.ignore(1000, '\n');
                 std::cout << "Cette case n'existe pas. Choississez une nouvelle case :";
-                std::cin >> emplacement;
             }
 
             int index = emplacement - 1; 
@@ -134,84 +134,11 @@ void multijoueur_partie (Player joueur1, Player joueur2, std::array<char, 9>& pl
         }
     }
     if (gagnant == QuiAGagne::Player1) {
-        std::cout << "Félicitation ! Le joueur " << joueur1.nom << " a gagné !";
+        std::cout << "Felicitation ! Le joueur " << joueur1.nom << " a gagné !";
     }
     if (gagnant == QuiAGagne::Player2) {
-        std::cout << "Félicitation ! Le joueur " << joueur2.nom << " a gagné !";
+        std::cout << "Felicitation ! Le joueur " << joueur2.nom << " a gagné !";
     }
-    std::cout << "La partie est terminée !" << std::endl;
+    std::cout << "La partie est terminee !" << std::endl;
     return;
 }
-
-// ********************************************** VICTOIRE ******************************************************** //
-
-
-/* enum Victoire (Player joueur1, Player joueur2, std::array<char, 9>& plateau){
-    //Vérification collones
-    enum gagnant = "Personne";
-    int c1 = 0;
-    int c2 = 3;
-    int c3 = 6;
-    for (size_t i = 0; i < 3; i++) //Lignes
-    {
-        if (plateau[c1] == joueur1.symbol && plateau[c2] == joueur1.symbol && plateau[c3] == joueur1.symbol) {
-            std::cout << "Félicitation ! Le joueur " << joueur1.nom << " a gagné !";
-            gagnant = "Joueur1";
-            return;
-        }
-        else if (plateau[c1] == joueur2.symbol && plateau[c2] == joueur2.symbol && plateau[c3] == joueur2.symbol){
-            std::cout << "Félicitation ! Le joueur " << joueur2.nom << " a gagné !";
-            gagnant = "Joueur2";
-            return;
-        }
-        c1++;
-        c2++;
-        c3++;
-    }
-
-    //Vérification des lignes
-    int c4 = 0;
-    int c5 = 1;
-    int c6 = 2;
-    for (size_t j = 0; j < 3; j++) //Lignes
-    {
-        if (plateau[c4] == joueur1.symbol && plateau[c5] == joueur1.symbol && plateau[c6] == joueur1.symbol) {
-            std::cout << "Félicitation ! Le joueur " << joueur1.nom << " a gagné !";
-            gagnant = "Joueur1";
-            return;
-        }
-        else if (plateau[c4] == joueur2.symbol && plateau[c5] == joueur2.symbol && plateau[c6] == joueur2.symbol){
-            std::cout << "Félicitation ! Le joueur " << joueur2.nom << " a gagné !";
-            gagnant = "Joueur2";
-            return;
-        }
-        c4++;
-        c5++;
-        c6++;
-    }
-
-    //Diagonal n°1
-    if (plateau[0] == joueur1.symbol && plateau[4] == joueur1.symbol && plateau[8] == joueur1.symbol) {
-        std::cout << "Félicitation ! Le joueur " << joueur1.nom << " a gagné !";
-        gagnant = "Joueur1";
-        return;
-    }
-    else if (plateau[0] == joueur2.symbol && plateau[4] == joueur2.symbol && plateau[8] == joueur2.symbol){
-         std::cout << "Félicitation ! Le joueur " << joueur2.nom << " a gagné !";
-        gagnant = "Joueur2";
-        return;
-    }
-
-    //Diagonal n°2
-    if (plateau[6] == joueur1.symbol && plateau[4] == joueur1.symbol && plateau[2] == joueur1.symbol) {
-        std::cout << "Félicitation ! Le joueur " << joueur1.nom << " a gagné !";
-        gagnant = "Joueur1";
-        return;
-    }
-    else if (plateau[6] == joueur2.symbol && plateau[4] == joueur2.symbol && plateau[2] == joueur2.symbol){
-         std::cout << "Félicitation ! Le joueur " << joueur2.nom << " a gagné !";
-        gagnant = "Joueur1";
-         return;
-    }
-
-} */
