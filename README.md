@@ -7,21 +7,21 @@ J'ai réparti mon travail en plusieurs catégories :
 2. Plateau : Commun aux deux modes de jeux, créer le plateau de jeu et le met à jour
 3. Player : Pour créer les joueurs et le profil de l'IA
 4. Gameplay : Test de victoire et fonctions du mode multijoueur
-5. IA : Fonctions du mode IA
-J'ai séparé l'IA du gameplay comme c'est une amélioration et qu'elle nécéssicite une fonction plutôt conséquantes.
+5. IA : Fonctions du mode IA <br>
+J'ai séparé l'IA du gameplay comme c'est une amélioration et qu'elle nécessite une fonction plutôt conséquente.
 
 ## Problèmes rencontrés et solutions trouvées
 
 ### Dans player.cpp
 
-Pour la première partie, j'ai vérifier que deux joueurs ne puissent pas choisir le même symbole.
-J'ai également vérfié que les joueurs ne puissent pas choisir un chiffre comme le choix des cases libres ce fait avec
+Pour la première partie, j'ai vérifié que deux joueurs ne puissent pas choisir le même symbole.
+J'ai également vérifié que les joueurs ne puissent pas choisir un chiffre comme le choix des cases libres se fait avec
 les chiffres.
 
 Mais j'ai découvert une faille : si un joueur tentait de choisir un chiffre, puis le même symbole que le joueur précédent, alors il pouvait y arriver.
-J'avais la bonne logique mais les deux vérifications se faisaient séparement : 
+J'avais la bonne logique mais les deux vérifications se faisaient séparément : 
 
-    ```while (joueur.symbol == PremierSymbolChoisi) {
+    while (joueur.symbol == PremierSymbolChoisi) {
         std::cout << "Symbole déjà pris par un autre joueur ! Choississez un autre symbole : ";
         std::cin >> joueur.symbol;
     }
@@ -32,9 +32,9 @@ J'avais la bonne logique mais les deux vérifications se faisaient séparement :
             std::cout << "Vous ne pouvez pas choisir ce symbole. Choississez un autre symbole : ";
             std::cin >> joueur.symbol;
         }
-    }```
+    }
 
-J'ai donc retravailler le code pour régler cette faille.
+J'ai donc retravaillé le code pour régler cette faille.
 
 ### Dans gameplay.cpp
 
@@ -44,7 +44,7 @@ J'ai donc ajouté la boucle while actuelle après la sélection de l'emplacement
 Même chose dans la boucle while de la fonction multijoueur_debut, j'ai ajouté un !(std::cin >> emplacement) pour éviter une erreur si le joueur rentre une lettre à la place d'un chiffre pour le choix d'une case.
 
 Au départ le code de ma fonction multijoueur_debut était dans le main car je n'arrivais pas à récupérer les joueurs
-qui étaient return pour les passer en paramètre.
+qui étaient retournés pour les passer en paramètres.
 Avec l'ajout du second de jeu, j'ai estimé que c'était plus simple de le passer en fonction.
 Jules m'a aidé avec std::pair<Player, Player>.
 
@@ -56,31 +56,31 @@ Pour la sélection du mode de jeu, j'ai repris la logique de la boucle do while 
 
 J'ai choisi l'amélioration de l'IA, Jules m'a aidé pour son fonctionnement. L'idée est de créer une copie du tableau. A l'aide de ma fonction victoire, je vérifie si l'IA peut gagner en jouant un coup précis (attaque), et si le joueur peut gagner également (défense). Dans ce cas, l'IA joue ce coup dans le vrai plateau, sinon elle joue aléatoirement.
 
-Mon premier essaie fonctionnait, mais j'avais regroupé dans la même boucle if la défense et l'attaque.
-De ce fait, l'IA jouait le premier coup valide, qu'il soit défensif ou attaquant.
+Mon premier essai fonctionnait, mais j'avais regroupé dans la même boucle if la défense et l'attaque.
+De ce fait, l'IA jouait le premier coup valide, qu'il soit défensif ou attaquant. <br>
 Mais logiquement, l'IA doit attaquer en premier plutôt que de défendre : pas besoin de défendre si on a gagné.
 J'ai donc changé mon code pour celui actuel en séparant attaque et défense, avec l'attaque en premier.
 
-Mon IA est fonctionnelle et attaque et défend. Il y a un unique bug que je n'ai pas réussi à résoudre.
+Mon IA est fonctionnelle : elle attaque et défend. Il y a un unique bug que je n'ai pas réussi à résoudre.
 Voici le cas de figure :
-C'est a votre tour de jouer, choississez votre case : 3
-|1|2|A|
-|X|A|6|
-|7|8|9|
-C'est au de l'IA de jouer.
-|1|2|A|
-|X|A|6|
-|X|8|9|
+C'est a votre tour de jouer, choississez votre case : 3 <br>
+|1|2|A| <br>
+|X|A|6| <br>
+|7|8|9| <br>
+C'est au de l'IA de jouer. <br>
+|1|2|A| <br>
+|X|A|6| <br>
+|X|8|9| <br>
 > L'IA défend correctement, la fonction marche bien pour les diagonales
 
-C'est a votre tour de jouer, choississez votre case : 1
-|A|2|A|
-|X|A|6|
-|X|8|9|
-C'est au de l'IA de jouer.
-|A|X|A|
-|X|A|6|
-|X|8|9|
+C'est a votre tour de jouer, choississez votre case : 1 <br>
+|A|2|A| <br>
+|X|A|6| <br>
+|X|8|9| <br>
+C'est au de l'IA de jouer. <br>
+|A|X|A| <br>
+|X|A|6| <br>
+|X|8|9| <br>
 > Mais elle ne défend jamais la seconde diagonale attaquée.
 
 Je n'ai pas réussi à comprendre d'où vient le problème.

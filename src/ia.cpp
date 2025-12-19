@@ -57,7 +57,7 @@ void solo_partie (Player joueur1, Player joueur2, std::array<char, 9>& plateau){
         } 
         //Joueur 2 de jouer
         else {
-            std::cout << "C'est au de l'IA de jouer. " << std::endl;
+            std::cout << "C'est au tour de l'IA de jouer. " << std::endl;
 
             //Attaque en priorié
             for (size_t indexIA = 0; indexIA < 9; indexIA++) {
@@ -111,8 +111,11 @@ void solo_partie (Player joueur1, Player joueur2, std::array<char, 9>& plateau){
     if (gagnant == QuiAGagne::Player1) {
         std::cout << "Felicitation ! Le joueur " << joueur1.nom << " a gagne !" << std::endl;
     }
-    if (gagnant == QuiAGagne::Player2) {
+    else if (gagnant == QuiAGagne::Player2) {
         std::cout << "Dommage, l'IA a gagne. Vous ferez mieux la prochaine fois" << std::endl;
+    }
+    else {
+        std::cout << "C'est une égalité. ";
     }
     std::cout << "La partie est terminee !" << std::endl;
     return;
